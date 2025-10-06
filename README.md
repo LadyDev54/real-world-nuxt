@@ -117,8 +117,6 @@ This repository structure and documentation is provided as-is. Each application 
 
 - Real World Rails https://github.com/eliotsykes/real-world-rails
 - Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
-- Real World React https://github.com/jeromedalbert/real-world-react
 - Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
 - Real World Django https://github.com/ckrybus/real-world-django
 - Real World Ember https://github.com/eliotsykes/real-world-ember
-
