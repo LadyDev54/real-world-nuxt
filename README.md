@@ -2,16 +2,16 @@
 
 > Real World Nuxt applications and their open source codebases for developers to learn from
 
-This project brings together active, open source Nuxt apps in one repository, making it easier for developers to download the collected codebases and learn from Nuxt apps written by experienced developers. Reading open source code can be an invaluable learning aid. You'll find the source code in the [`apps/`](apps/) subdirectory.
+This repository aggregates production-quality, open source Nuxt applications into a single collection, allowing you to explore real codebases built by experienced teams and developers. Studying working applications is one of the best ways to level up your skills. Browse the curated apps in the [`apps/`](apps/) subdirectory.
 
 Real World Nuxt helps developers:
 
-- Find example usage of Nuxt features and composables you're unsure of
-- Learn how other developers structure their Nuxt applications
-- Discover how to use Nuxt modules and plugins
-- See real-world implementations of Nuxt 3 patterns
-- Explore different approaches to API integration, state management, and more
-- Leverage LLMs to analyze patterns across multiple codebases
+- Explore how production applications structure components, pages, and composables
+- Study real implementations of Nuxt 3 features like server API routes and middleware
+- See practical examples of state management, API integration, and data fetching patterns
+- Discover how teams integrate and configure popular Nuxt modules
+- Use LLMs to search across codebases and identify common patterns or best practices
+- Reference working code when you're stuck on a specific feature or technique
 
 ## How to install on your computer
 
@@ -19,7 +19,7 @@ Ensure you have git installed: https://git-scm.com
 
 ```bash
 # Clone this git repo:
-git clone git@github.com:yourusername/real-world-nuxt.git
+git clone git@github.com:steveclarke/real-world-nuxt.git
 
 cd real-world-nuxt/
 
@@ -55,80 +55,34 @@ GIT_LFS_SKIP_SMUDGE=1 git submodule update --remote
 
 This will pull the latest changes from each Nuxt app (e.g., if the Movies app adds new features, you'll get them).
 
-## Other Real World Codebase Collections
+## Analyze with LLMs
 
-- Real World Rails https://github.com/eliotsykes/real-world-rails
-- Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
-- Real World React https://github.com/jeromedalbert/real-world-react
-- Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
-- Real World Django https://github.com/ckrybus/real-world-django
-- Real World Ember https://github.com/eliotsykes/real-world-ember
+With all the codebases aggregated in one place, you can leverage AI to understand patterns across real-world Nuxt applications:
 
-## How you can analyze Real World Nuxt apps
+- Point an LLM (like Claude, GPT-4, etc.) at the entire `apps/` directory
+- Ask questions like "Show me how these apps implement authentication" or "What patterns do they use for data fetching?"
+- Compare different approaches to the same problem across multiple codebases
+- Discover best practices by analyzing what experienced teams actually do in production
+- Search for specific Nuxt features or module usage across all projects at once
 
-#### Find all composables
+## Contributing
 
-Use grep/ripgrep to find composable patterns:
+Contributions are welcome! If you know of a great open source Nuxt application, please:
 
-```bash
-# Find all composables using useAsyncData
-rg "useAsyncData" apps/ -A 3
+1. Check the criteria below
+2. Add it as a submodule
+3. Submit a pull request
 
-# Find useState usage
-rg "useState" apps/ -A 3
-```
+### Criteria for adding apps
 
-#### Find all page components
+Apps must:
+- Be open source and publicly available
+- Use Nuxt 3 or Nuxt 4
+- Be actively maintained or represent quality code
+- Be real-world applications (not just demos or tutorials)
+- Have meaningful code to learn from
 
-```bash
-# List all pages directories
-find apps/ -type d -name "pages"
-
-# Find all dynamic routes
-find apps/ -name "\[*.vue\]"
-```
-
-#### Analyze component patterns
-
-```bash
-# Find all components
-find apps/ -path "*/components/*.vue"
-
-# Find composables
-find apps/ -path "*/composables/*.ts" -o -path "*/composables/*.js"
-```
-
-#### Find projects using specific Nuxt modules
-
-```bash
-# Find all projects using a specific module (e.g., @nuxt/content)
-find apps/ -name "nuxt.config.ts" -o -name "nuxt.config.js" | xargs grep "@nuxt/content"
-
-# Find all package.json files and search for a module
-find apps/ -name "package.json" | xargs grep "nuxt-module-name"
-```
-
-#### Explore API patterns
-
-```bash
-# Find server API routes
-find apps/ -path "*/server/api/*.ts" -o -path "*/server/api/*.js"
-
-# Find middleware
-find apps/ -path "*/middleware/*.ts" -o -path "*/middleware/*.js"
-```
-
-#### Use LLMs for deeper analysis
-
-With all the codebases in one place, you can:
-- Point an LLM (like Claude, GPT-4, etc.) at the entire directory
-- Ask questions like "Show me how these apps implement authentication"
-- Find patterns across multiple real-world implementations
-- Discover best practices by seeing what experienced developers do
-
-## Information for Contributors
-
-#### How to add a Real World Nuxt app
+### How to add a Real World Nuxt app
 
 Given a GitHub repo for a Nuxt app `githubuser/foo`:
 
@@ -138,16 +92,7 @@ Given a GitHub repo for a Nuxt app `githubuser/foo`:
 git submodule add -b <DEFAULT_BRANCH> git@github.com:githubuser/foo.git apps/foo
 ```
 
-#### Criteria for adding apps
-
-Apps should:
-- Be open source and publicly available
-- Use Nuxt 2 or Nuxt 3
-- Be actively maintained or represent quality code
-- Be real-world applications (not just demos or tutorials)
-- Have meaningful code to learn from
-
-#### How to remove a git submodule
+### How to remove a git submodule
 
 Only use this if a previously public repo has been removed:
 
@@ -162,15 +107,16 @@ rm -rf .git/modules/path/to/submodule
 git rm -f path/to/submodule
 ```
 
-## Contributing
-
-Contributions are welcome! If you know of a great open source Nuxt application, please:
-
-1. Check it meets the criteria above
-2. Add it as a submodule
-3. Submit a pull request
-
 ## License
 
 This repository structure and documentation is provided as-is. Each application in the `apps/` directory is licensed under its own terms - please check individual repositories for their licenses.
+
+## Other Real World Codebase Collections
+
+- Real World Rails https://github.com/eliotsykes/real-world-rails
+- Real World Sinatra https://github.com/jeromedalbert/real-world-sinatra
+- Real World React https://github.com/jeromedalbert/real-world-react
+- Real World Ruby Apps https://github.com/jeromedalbert/real-world-ruby-apps
+- Real World Django https://github.com/ckrybus/real-world-django
+- Real World Ember https://github.com/eliotsykes/real-world-ember
 
