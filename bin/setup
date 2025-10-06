@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+echo "🚀 Setting up Real World Nuxt..."
+echo ""
+
+echo "⬇️  Initializing and downloading all Nuxt app submodules..."
+echo "    (This may take a few minutes on first run)"
+echo ""
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch --jobs 4
+
+echo ""
+echo "✅ Setup complete! You can now explore the apps/ directory."
+echo ""
+echo "💡 Tip: Run 'bin/update' anytime to pull the latest changes."
+

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+echo "📦 Updating Real World Nuxt..."
+echo ""
+
+echo "⬇️  Pulling latest changes from real-world-nuxt..."
+git pull
+
+echo ""
+echo "⬇️  Updating all Nuxt app submodules to their latest versions..."
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --remote --merge
+
+echo ""
+echo "✅ All done! Your Real World Nuxt apps are up to date."
+

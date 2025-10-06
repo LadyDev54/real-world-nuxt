@@ -23,19 +23,37 @@ git clone git@github.com:yourusername/real-world-nuxt.git
 
 cd real-world-nuxt/
 
-# The Nuxt apps are linked to as git submodules.
-git submodule update --init --single-branch --jobs 4
-
-echo "All done! You can now explore the apps/ directory."
+# Run the setup script to initialize all apps:
+bin/setup
 ```
+
+**Or manually:**
+```bash
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --init --single-branch --jobs 4
+```
+
+## Handy Scripts
+
+We've included some helpful scripts in the `bin/` directory:
+
+- **`bin/setup`** - Initialize and download all Nuxt app submodules (run after first clone)
+- **`bin/update`** - Pull latest changes from real-world-nuxt and all Nuxt apps
+- **`bin/status`** - Show status of all submodules and which apps are initialized
 
 ## How to update your local copy of real-world-nuxt
 
-Pull the latest commits from this repo and update submodules:
+Simply run:
+```bash
+bin/update
+```
+
+**Or manually:**
 ```bash
 git pull
-git submodule update --remote
+GIT_LFS_SKIP_SMUDGE=1 git submodule update --remote
 ```
+
+This will pull the latest changes from each Nuxt app (e.g., if the Movies app adds new features, you'll get them).
 
 ## Other Real World Codebase Collections
 

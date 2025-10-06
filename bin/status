@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+echo "📊 Real World Nuxt Status"
+echo ""
+echo "📁 Submodules:"
+git submodule status
+
+echo ""
+echo "📈 Summary:"
+submodule_count=$(git submodule status | wc -l | tr -d ' ')
+initialized_count=$(git submodule status | grep -v '^-' | wc -l | tr -d ' ')
+echo "   Total apps: $submodule_count"
+echo "   Initialized: $initialized_count"
+
+if [ "$initialized_count" -eq "0" ]; then
+    echo ""
+    echo "💡 No apps initialized yet. Run 'bin/setup' to download all apps."
+elif [ "$initialized_count" -lt "$submodule_count" ]; then
+    echo ""
+    echo "💡 Some apps not initialized. Run 'bin/setup' to download remaining apps."
+fi
+
