@@ -10,3 +10,11 @@
 	path = apps/vitesse-nuxt3
 	url = https://github.com/antfu/vitesse-nuxt3.git
 	branch = main
+[submodule "apps/nuxt.com"]
+	path = apps/nuxt.com
+	url = https://github.com/nuxt/nuxt.com.git
+	branch = main
+[submodule "apps/docus"]
+	path = apps/docus
+	url = https://github.com/nuxt-themes/docus.git
+	branch = main
