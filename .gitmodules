@@ -1,0 +1,4 @@
+[submodule "apps/movies"]
+	path = apps/movies
+	url = https://github.com/nuxt/movies.git
+	branch = main
