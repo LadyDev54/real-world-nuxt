@@ -61,7 +61,7 @@ This will pull the latest changes from each Nuxt app (e.g., if the Movies app ad
 
 With all the codebases aggregated in one place, you can leverage AI to understand patterns across real-world Nuxt applications:
 
-- Point an LLM (like Claude, GPT-4, etc.) at the entire `apps/` directory
+- Point an LLM (like Claude or Cursor) at the entire `apps/` directory
 - Ask questions like "Show me how these apps implement authentication" or "What patterns do they use for data fetching?"
 - Compare different approaches to the same problem across multiple codebases
 - Discover best practices by analyzing what experienced teams actually do in production
