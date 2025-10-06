@@ -2,3 +2,11 @@
 	path = apps/movies
 	url = https://github.com/nuxt/movies.git
 	branch = main
+[submodule "apps/hackernews"]
+	path = apps/hackernews
+	url = https://github.com/nuxt/hackernews.git
+	branch = main
+[submodule "apps/vitesse-nuxt3"]
+	path = apps/vitesse-nuxt3
+	url = https://github.com/antfu/vitesse-nuxt3.git
+	branch = main
