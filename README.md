@@ -4,6 +4,8 @@
 
 This repository aggregates production-quality, open source Nuxt applications into a single collection, allowing you to explore real codebases built by experienced teams and developers. Studying working applications is one of the best ways to level up your skills. Browse the curated apps in the [`apps/`](apps/) subdirectory.
 
+📋 **See [apps.md](apps.md) for a complete list of all included applications with descriptions and versions.**
+
 Real World Nuxt helps developers:
 
 - Explore how production applications structure components, pages, and composables
