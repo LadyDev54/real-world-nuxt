@@ -9,5 +9,6 @@ This is a curated list of all the Nuxt applications included in this repository.
 | **Vitesse Nuxt3** | Opinionated Nuxt starter template by Anthony Fu. | [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) |
 | **Nuxt.com** | The official Nuxt website. | [nuxt/nuxt.com](https://github.com/nuxt/nuxt.com) |
 | **Docus** | Documentation theme and framework. | [nuxt-themes/docus](https://github.com/nuxt-themes/docus) |
+| **Nuxt 3 RealWorld Example** | Full-stack RealWorld example. | [MR-Mostafa/nuxt3-realworld-example-app](https://github.com/MR-Mostafa/nuxt3-realworld-example-app) |
 
 

@@ -18,3 +18,7 @@
 	path = apps/docus
 	url = https://github.com/nuxt-themes/docus.git
 	branch = main
+[submodule "apps/nuxt3-realworld-example-app"]
+	path = apps/nuxt3-realworld-example-app
+	url = https://github.com/MR-Mostafa/nuxt3-realworld-example-app.git
+	branch = main
