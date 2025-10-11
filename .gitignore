@@ -42,3 +42,6 @@ pnpm-debug.log*
 # Misc
 .bundle
 
+# A directory reserved for the user to store analyses
+analyses/*
+!analyses/.keep

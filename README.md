@@ -67,6 +67,17 @@ With all the codebases aggregated in one place, you can leverage AI to understan
 - Discover best practices by analyzing what experienced teams actually do in production
 - Search for specific Nuxt features or module usage across all projects at once
 
+### Storing Your Analyses
+
+We've included an `analyses/` directory for you to store your own analysis documents:
+
+- This directory is **git ignored** - your analysis files won't be committed or show up in pull requests
+- Store markdown files, notes, code reviews, or any other documentation here
+- Safe space for personal observations, learning notes, or work-in-progress research
+- Keeps your workspace clean without cluttering the repository
+
+Example: `analyses/movies-playwright-e2e-analysis.md` or `analyses/authentication-patterns.md`
+
 ## Contributing
 
 Contributions are welcome! If you know of a great open source Nuxt application, please:
