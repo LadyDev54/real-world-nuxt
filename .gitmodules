@@ -26,3 +26,11 @@
 	path = apps/agency-os
 	url = https://github.com/directus-labs/agency-os.git
 	branch = main
+[submodule "apps/elk"]
+	path = apps/elk
+	url = https://github.com/elk-zone/elk.git
+	branch = main
+[submodule "apps/github-explorer"]
+	path = apps/github-explorer
+	url = https://github.com/SeanLuis/github-explorer.git
+	branch = master
